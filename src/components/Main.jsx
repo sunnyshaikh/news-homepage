@@ -62,7 +62,7 @@ const Main = () => {
                 data.map(({ id, title, desc }, index) => (
                   <Fragment key={id}>
                     <Box color="inherit">
-                      <Typography variant="h4" color="grey.50" fontSize={20}>{title}</Typography>
+                      <Typography variant="h3" c color="grey.50" fontSize={20}>{title}</Typography>
                       <Typography variant="body2" color="grey.400" mt={1}>{desc}</Typography>
                     </Box>
                     {

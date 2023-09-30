@@ -42,10 +42,10 @@ const Cards = () => {
                     <img src={img} alt="image" style={{ maxHeight: "150px", maxWidth: "180px", borderRadius: "6px" }} />
                   </CardMedia>
                   <CardContent sx={{ py: 0 }}>
-                    <Typography gutterBottom variant="h5" color="grey.400">
+                    <Typography gutterBottom variant="h5" component="p" color="grey.400">
                       {watermark}
                     </Typography>
-                    <Typography gutterBottom variant="h6" fontSize={18}>
+                    <Typography gutterBottom variant="h4" fontSize={18}>
                       {title}
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
