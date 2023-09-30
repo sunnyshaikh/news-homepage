@@ -35,7 +35,7 @@ const Main = () => {
             </picture>
             <Grid container mt={3}>
               <Grid item xs={12} sm={6}>
-                <Typography variant="h3">The Bright Future of Web 3.0?</Typography>
+                <Typography variant="h3" component="h1">The Bright Future of Web 3.0?</Typography>
               </Grid>
               <Grid item xs={12} sm={6} pl={{ xs: 0, md: 5 }}>
                 <Typography variant="body2" color="text.secondary">
