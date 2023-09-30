@@ -56,7 +56,7 @@ const Main = () => {
             flexDirection: "column",
             borderRadius: "10px",
           }}>
-            <Typography variant='h3' color="primary.main">New</Typography>
+            <Typography variant='h3' component="h2" color="primary.main">New</Typography>
             <Stack spacing={3} mt={2}>
               {
                 data.map(({ id, title, desc }, index) => (
@@ -66,7 +66,7 @@ const Main = () => {
                       <Typography variant="body2" color="grey.400" mt={1}>{desc}</Typography>
                     </Box>
                     {
-                      index !== data.length - 1 ? <Divider color="grey" /> : null
+                      index !== data.length - 1 ? <Divider style={{ color: "grey" }} /> : null
                     }
                   </Fragment>
                 ))
